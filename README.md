@@ -1,4 +1,4 @@
-# Sneack max
+# Sneackmax
 
 ## Live
 
