@@ -1,10 +1,11 @@
-<header class="header"></header>
-<header>
-  <div class="container grid">
-    <a href="#" class="logo header__logo">SneackMax</a>
+<header class="header">
+  <div class="container grid header__container">
+    <div class="header__left">
+      <a href="#" class="logo header__logo">SneackMax</a>
+    </div>
     <div class="header__right">
       <nav class="nav header__nav">
-        <ul class="nav__list">
+        <ul class="nav__list list-reset">
           <li class="nav__item">
             <a href="#" class="nav__link">Collections</a>
           </li>
@@ -19,12 +20,14 @@
           <li class="nav__item"><a href="#" class="nav__link">Contacts</a></li>
         </ul>
       </nav>
-      <button class="btn-reset cart header__cart">
-        <svg>
-          <use xlink:href="img/sprite.svg#cart"></use>
-        </svg>
-        <span class="cart__count">1</span>
-      </button>
+      <div class="cart header__cart">
+        <button class="btn-reset cart cart__btn">
+          <svg>
+            <use xlink:href="img/sprite.svg#cart"></use>
+          </svg>
+          <span class="cart__count">1</span>
+        </button>
+      </div>
     </div>
   </div>
 </header>
